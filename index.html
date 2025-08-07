@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-color: #16161a;">
     <nav class="navbar" >
         <div class="navbar__container">
             <a href="/" id="navbar__logo" >Me-</a>
@@ -42,7 +42,11 @@
             </ul>
         </div>
     </nav>
-
+    <!--Scroll Progress bar try-->
+    <div class="scroll__container" style="color: cyan;">
+        <div class="scroll__bar">
+        </div>
+    </div>
     <!--Hero section-->
     <div class="main">
         <div class="main__container">
@@ -57,10 +61,31 @@
                 </button>
             </div>
             <div class="main__img--container">
-                <img src="images/pic3.svg" alt="pic" id="main__img">
+                <img src="images/pic2.svg" alt="pic" id="main__img">
             </div>
         </div>
     </div>
+
+    <!-- Services Section -->
+     <div class="services">
+        <h1>Some Of My Projects</h1>
+        <div class="services__container">
+            <a href="https://github.com/ashimparajuli04/WeatherApp" class="" target="_blank" rel="noopener noreferrer">
+            <div class="services__card">
+                <h2>Weather</h2>
+                <p>AI Powered Technology</p>
+                <button>Go</button>
+            </div>
+            </a>
+            <a href="https://github.com/ashimparajuli04/mynotesapp" class="" target="_blank" rel="noopener noreferrer">
+            <div class="services__card">
+                <h2>Notes</h2>
+                <p>Take the leap</p>
+                <button>Go</button>
+            </div>
+            </a>
+        </div>
+     </div>
     <script src="app.js"></script>
 </body>
 </html>
